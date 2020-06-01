@@ -32,14 +32,13 @@ print("----FISHING-----")
 print("[1]kingfish3 - Король Фишинга очень много вариантов для Фишинга(Фишинг ВК и прочее)")
 print("-----DEANON-----")
 print("[2]sherlock - Можно много всего (Например пробить номер телефона)")
-print("[3]seeker - Вычисляет данные телефона")
 print("-----VK-----")
-print("[4]VkRaidBot - Убивает бееседы в ВК спамом")
-print("[5]VKTOOL - Утилита спамит посты и комментарии")
+print("[3]VkRaidBot - Убивает бееседы в ВК спамом")
+print("[4]VKTOOL - Утилита спамит посты и комментарии")
 print("-----SMS SPAM-----")
-print("[6]smsham - Утилита для спама смс на номер телефона")
+print("[5]smsham - Утилита для спама смс на номер телефона")
 print("Others")
-print("[7]Bot Bilder - Утилита поможет сделать ботов для ВК")
+print("[6]Bot Bilder - Утилита поможет сделать ботов для ВК")
 print("Авторы утилит: Sudoreboot2020, Shotfly-tlab, Rax0")
 print("    ")
 print("Введите Номер: ")
@@ -56,11 +55,6 @@ while True:
         os.chdir('DH')
         os.system('python3 sherl.py')
     elif num == (3):
-        print (Fore.GREEN + 'Запуск Seeker')
-        os.system('clear')
-        os.chdir('DH')
-        os.system('python3 seeker.py -t manual')
-    elif num == (4):
         print (Fore.GREEN + 'Запуск VkRaidBot')
         os.system('clear')
         os.chdir('DH')
@@ -68,17 +62,17 @@ while True:
         print("Загрузка...")
         time.sleep(4)
         os.system('python3 vkraid.py')
-    elif num == (5):
+    elif num == (4):
         print (Fore.GREEN + 'Запуск VKTOOL...')
         os.system('clear') 
         os.chdir('DH')
         os.system('python3 vktool.py')
-    elif num == (6):
+    elif num == (5):
         print (Fore.GREEN + 'Запуск vktool ...')
         os.system('clear')
         os.chdir('DH')
         os.system('python3 smsham.py')
-    elif num == (7):
+    elif num == (6):
         print (Fore.GREEN + 'Запуск BotBilder...')
         os.system('clear')
         os.chdir('DH')
