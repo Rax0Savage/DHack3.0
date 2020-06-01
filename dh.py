@@ -54,7 +54,7 @@ while True:
         print (Fore.GREEN + 'Запуск Sherlock')
         os.system('clear')
         os.chdir('DH')
-        os.system('python3 sherlock.py')
+        os.system('python3 sherl.py')
     elif num == (3):
         print (Fore.GREEN + 'Запуск Seeker')
         os.system('clear')
