@@ -58,7 +58,7 @@ while True:
     elif num == (3):
         print (Fore.GREEN + 'Запуск Seeker')
         os.system('clear')
-        os.chdir('DH)
+        os.chdir('DH')
         os.system('python3 seeker.py -t manual')
     elif num == (4):
         print (Fore.GREEN + 'Запуск VkRaidBot')
