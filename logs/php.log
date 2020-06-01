@@ -1,0 +1,171 @@
+Skip to content
+ Rax0Savage / DHack3.0
+Code Issues 0 Pull requests 0 Projects 0 Actions Wiki Security 0 Pulse Community
+DHack3.0/DH/php.log
+@Rax0Savage Rax0Savage Update php.log
+5d13d62 8 minutes ago
+163 lines (163 sloc)  9.11 KB
+ 
+[Wed May 20 14:52:45 2020] PHP 7.4.6 Development Server (http://0.0.0.0:8080) started
+[Wed May 20 14:52:48 2020] 127.0.0.1:38629 Accepted
+[Wed May 20 14:52:48 2020] 127.0.0.1:38629 [200]: (null) /index.html
+[Wed May 20 14:52:48 2020] 127.0.0.1:38629 Closing
+[Wed May 20 14:56:40 2020] 127.0.0.1:38885 Accepted
+[Wed May 20 14:56:40 2020] 127.0.0.1:38885 [200]: (null) /
+[Wed May 20 14:56:40 2020] 127.0.0.1:38885 Closing
+[Wed May 20 14:56:41 2020] 127.0.0.1:38889 Accepted
+[Wed May 20 14:56:41 2020] 127.0.0.1:38889 [200]: (null) /css/main.css
+[Wed May 20 14:56:41 2020] 127.0.0.1:38889 Closing
+[Wed May 20 14:56:41 2020] 127.0.0.1:38897 Accepted
+[Wed May 20 14:56:41 2020] 127.0.0.1:38897 [200]: (null) /js/main.js
+[Wed May 20 14:56:41 2020] 127.0.0.1:38897 Closing
+[Wed May 20 14:56:42 2020] 127.0.0.1:38898 Accepted
+[Wed May 20 14:56:42 2020] 127.0.0.1:38898 [200]: (null) /js/location.js
+[Wed May 20 14:56:42 2020] 127.0.0.1:38898 Closing
+[Wed May 20 14:56:42 2020] 127.0.0.1:38908 Accepted
+[Wed May 20 14:56:42 2020] 127.0.0.1:38908 [200]: (null) /js/info.js
+[Wed May 20 14:56:42 2020] 127.0.0.1:38908 Closing
+[Wed May 20 14:56:42 2020] 127.0.0.1:38909 Accepted
+[Wed May 20 14:56:42 2020] 127.0.0.1:38909 [200]: (null) /js/warpspeed.min.js
+[Wed May 20 14:56:42 2020] 127.0.0.1:38909 Closing
+[Wed May 20 14:56:44 2020] 127.0.0.1:38917 Accepted
+[Wed May 20 14:56:44 2020] 127.0.0.1:38917 [200]: POST /php/info.php
+[Wed May 20 14:56:44 2020] 127.0.0.1:38917 Closing
+[Wed May 20 14:56:52 2020] 127.0.0.1:38934 Accepted
+[Wed May 20 14:56:52 2020] 127.0.0.1:38934 [200]: POST /php/error.php
+[Wed May 20 14:56:52 2020] 127.0.0.1:38934 Closing
+[Wed May 20 14:56:54 2020] 127.0.0.1:38942 Accepted
+[Wed May 20 14:56:54 2020] 127.0.0.1:38942 [200]: POST /php/error.php
+[Wed May 20 14:56:54 2020] 127.0.0.1:38942 Closing
+[Wed May 20 16:51:45 2020] 127.0.0.1:42011 Accepted
+[Wed May 20 16:51:45 2020] 127.0.0.1:42011 [200]: POST /
+[Wed May 20 16:51:45 2020] 127.0.0.1:42011 Closing
+[Wed May 20 16:51:53 2020] 127.0.0.1:42012 Accepted
+[Wed May 20 16:51:53 2020] 127.0.0.1:42012 [200]: POST /
+[Wed May 20 16:51:53 2020] 127.0.0.1:42012 Closing
+[Wed May 20 16:51:54 2020] 127.0.0.1:42013 Accepted
+[Wed May 20 16:51:54 2020] 127.0.0.1:42013 [200]: POST /css/main.css
+[Wed May 20 16:51:54 2020] 127.0.0.1:42013 Closing
+[Wed May 20 16:51:54 2020] 127.0.0.1:42014 Accepted
+[Wed May 20 16:51:54 2020] 127.0.0.1:42014 [200]: POST /js/main.js
+[Wed May 20 16:51:54 2020] 127.0.0.1:42014 Closing
+[Wed May 20 16:51:54 2020] 127.0.0.1:42015 Accepted
+[Wed May 20 16:51:54 2020] 127.0.0.1:42015 [200]: POST /js/location.js
+[Wed May 20 16:51:54 2020] 127.0.0.1:42015 Closing
+[Wed May 20 16:51:54 2020] 127.0.0.1:42016 Accepted
+[Wed May 20 16:51:54 2020] 127.0.0.1:42017 Accepted
+[Wed May 20 16:51:54 2020] 127.0.0.1:42016 [200]: POST /js/info.js
+[Wed May 20 16:51:54 2020] 127.0.0.1:42017 [200]: POST /js/warpspeed.min.js
+[Wed May 20 16:51:54 2020] 127.0.0.1:42016 Closing
+[Wed May 20 16:51:54 2020] 127.0.0.1:42017 Closing
+[Wed May 20 16:53:22 2020] 127.0.0.1:42021 Accepted
+[Wed May 20 16:53:22 2020] 127.0.0.1:42021 [200]: POST /
+[Wed May 20 16:53:22 2020] 127.0.0.1:42021 Closing
+[Wed May 20 16:53:23 2020] 127.0.0.1:42022 Accepted
+[Wed May 20 16:53:23 2020] 127.0.0.1:42022 [200]: POST /css/main.css
+[Wed May 20 16:53:23 2020] 127.0.0.1:42022 Closing
+[Wed May 20 16:53:23 2020] 127.0.0.1:42023 Accepted
+[Wed May 20 16:53:23 2020] 127.0.0.1:42023 [200]: POST /js/main.js
+[Wed May 20 16:53:23 2020] 127.0.0.1:42023 Closing
+[Wed May 20 16:53:23 2020] 127.0.0.1:42024 Accepted
+[Wed May 20 16:53:23 2020] 127.0.0.1:42024 [200]: POST /js/location.js
+[Wed May 20 16:53:23 2020] 127.0.0.1:42024 Closing
+[Wed May 20 16:53:23 2020] 127.0.0.1:42026 Accepted
+[Wed May 20 16:53:23 2020] 127.0.0.1:42025 Accepted
+[Wed May 20 16:53:23 2020] 127.0.0.1:42026 [200]: POST /js/warpspeed.min.js
+[Wed May 20 16:53:23 2020] 127.0.0.1:42025 [200]: POST /js/info.js
+[Wed May 20 16:53:23 2020] 127.0.0.1:42026 Closing
+[Wed May 20 16:53:23 2020] 127.0.0.1:42025 Closing
+[Wed May 20 16:53:26 2020] 127.0.0.1:42027 Accepted
+[Wed May 20 16:53:26 2020] 127.0.0.1:42027 [200]: POST /php/info.php
+[Wed May 20 16:53:26 2020] 127.0.0.1:42027 Closing
+[Wed May 20 17:00:45 2020] 127.0.0.1:42523 Accepted
+[Wed May 20 17:00:45 2020] 127.0.0.1:42523 [200]: POST /
+[Wed May 20 17:00:45 2020] 127.0.0.1:42523 Closing
+[Wed May 20 17:00:46 2020] 127.0.0.1:42524 Accepted
+[Wed May 20 17:00:46 2020] 127.0.0.1:42525 Accepted
+[Wed May 20 17:00:46 2020] 127.0.0.1:42524 [200]: POST /css/main.css
+[Wed May 20 17:00:46 2020] 127.0.0.1:42525 [200]: POST /js/main.js
+[Wed May 20 17:00:46 2020] 127.0.0.1:42524 Closing
+[Wed May 20 17:00:46 2020] 127.0.0.1:42525 Closing
+[Wed May 20 17:00:46 2020] 127.0.0.1:42526 Accepted
+[Wed May 20 17:00:46 2020] 127.0.0.1:42526 [200]: POST /js/location.js
+[Wed May 20 17:00:46 2020] 127.0.0.1:42526 Closing
+[Wed May 20 17:00:47 2020] 127.0.0.1:42527 Accepted
+[Wed May 20 17:00:47 2020] 127.0.0.1:42528 Accepted
+[Wed May 20 17:00:47 2020] 127.0.0.1:42527 [200]: POST /js/info.js
+[Wed May 20 17:00:47 2020] 127.0.0.1:42528 [200]: POST /js/warpspeed.min.js
+[Wed May 20 17:00:47 2020] 127.0.0.1:42527 Closing
+[Wed May 20 17:00:47 2020] 127.0.0.1:42528 Closing
+[Wed May 20 17:00:52 2020] 127.0.0.1:42564 Accepted
+[Wed May 20 17:00:52 2020] 127.0.0.1:42564 [200]: POST /php/info.php
+[Wed May 20 17:00:52 2020] 127.0.0.1:42564 Closing
+[Wed May 20 17:16:49 2020] 127.0.0.1:43424 Accepted
+[Wed May 20 17:16:49 2020] 127.0.0.1:43424 [200]: POST /
+[Wed May 20 17:16:49 2020] 127.0.0.1:43424 Closing
+[Wed May 20 17:16:50 2020] 127.0.0.1:43425 Accepted
+[Wed May 20 17:16:50 2020] 127.0.0.1:43425 [200]: POST /css/main.css
+[Wed May 20 17:16:50 2020] 127.0.0.1:43425 Closing
+[Wed May 20 17:16:50 2020] 127.0.0.1:43426 Accepted
+[Wed May 20 17:16:50 2020] 127.0.0.1:43426 [200]: POST /js/main.js
+[Wed May 20 17:16:50 2020] 127.0.0.1:43426 Closing
+[Wed May 20 17:16:50 2020] 127.0.0.1:43427 Accepted
+[Wed May 20 17:16:50 2020] 127.0.0.1:43427 [200]: POST /js/location.js
+[Wed May 20 17:16:50 2020] 127.0.0.1:43427 Closing
+[Wed May 20 17:16:50 2020] 127.0.0.1:43428 Accepted
+[Wed May 20 17:16:50 2020] 127.0.0.1:43428 [200]: POST /js/info.js
+[Wed May 20 17:16:50 2020] 127.0.0.1:43428 Closing
+[Wed May 20 17:16:50 2020] 127.0.0.1:43429 Accepted
+[Wed May 20 17:16:50 2020] 127.0.0.1:43429 [200]: POST /js/warpspeed.min.js
+[Wed May 20 17:16:50 2020] 127.0.0.1:43429 Closing
+[Wed May 20 19:45:56 2020] 127.0.0.1:47885 Accepted
+[Wed May 20 19:45:56 2020] 127.0.0.1:47885 [200]: POST /
+[Wed May 20 19:45:56 2020] 127.0.0.1:47885 Closing
+[Wed May 20 19:45:57 2020] 127.0.0.1:47886 Accepted
+[Wed May 20 19:45:57 2020] 127.0.0.1:47886 [200]: POST /css/main.css
+[Wed May 20 19:45:57 2020] 127.0.0.1:47886 Closing
+[Wed May 20 19:45:58 2020] 127.0.0.1:47887 Accepted
+[Wed May 20 19:45:58 2020] 127.0.0.1:47887 [200]: POST /js/main.js
+[Wed May 20 19:45:58 2020] 127.0.0.1:47887 Closing
+[Wed May 20 19:45:58 2020] 127.0.0.1:47888 Accepted
+[Wed May 20 19:45:58 2020] 127.0.0.1:47888 [200]: POST /js/location.js
+[Wed May 20 19:45:58 2020] 127.0.0.1:47888 Closing
+[Wed May 20 19:48:49 2020] 127.0.0.1:47963 Accepted
+[Wed May 20 19:48:49 2020] 127.0.0.1:47963 [200]: POST /
+[Wed May 20 19:48:49 2020] 127.0.0.1:47963 Closing
+[Wed May 20 19:48:49 2020] 127.0.0.1:47964 Accepted
+[Wed May 20 19:48:49 2020] 127.0.0.1:47964 [200]: POST /css/main.css
+[Wed May 20 19:48:49 2020] 127.0.0.1:47964 Closing
+[Wed May 20 19:48:50 2020] 127.0.0.1:47965 Accepted
+[Wed May 20 19:48:50 2020] 127.0.0.1:47965 [200]: POST /js/main.js
+[Wed May 20 19:48:50 2020] 127.0.0.1:47965 Closing
+[Wed May 20 19:48:50 2020] 127.0.0.1:47966 Accepted
+[Wed May 20 19:48:50 2020] 127.0.0.1:47966 [200]: POST /js/location.js
+[Wed May 20 19:48:50 2020] 127.0.0.1:47966 Closing
+[Wed May 20 19:48:50 2020] 127.0.0.1:47967 Accepted
+[Wed May 20 19:48:50 2020] 127.0.0.1:47967 [200]: POST /js/info.js
+[Wed May 20 19:48:50 2020] 127.0.0.1:47968 Accepted
+[Wed May 20 19:48:50 2020] 127.0.0.1:47968 [200]: POST /js/warpspeed.min.js
+[Wed May 20 19:48:50 2020] 127.0.0.1:47967 Closing
+[Wed May 20 19:48:50 2020] 127.0.0.1:47968 Closing
+[Wed May 20 19:49:00 2020] 127.0.0.1:47973 Accepted
+[Wed May 20 19:49:00 2020] 127.0.0.1:47973 [200]: POST /php/info.php
+[Wed May 20 19:49:00 2020] 127.0.0.1:47973 Closing
+[Wed May 20 19:49:01 2020] 127.0.0.1:47978 Accepted
+[Wed May 20 19:49:01 2020] 127.0.0.1:47977 Accepted
+[Wed May 20 19:49:01 2020] 127.0.0.1:47978 [200]: POST /css/main.css
+[Wed May 20 19:49:01 2020] 127.0.0.1:47977 [200]: POST /js/main.js
+[Wed May 20 19:49:01 2020] 127.0.0.1:47978 Closing
+[Wed May 20 19:49:01 2020] 127.0.0.1:47977 Closing
+[Wed May 20 19:49:01 2020] 127.0.0.1:47980 Accepted
+[Wed May 20 19:49:01 2020] 127.0.0.1:47981 Accepted
+[Wed May 20 19:49:01 2020] 127.0.0.1:47980 [200]: POST /js/info.js
+[Wed May 20 19:49:01 2020] 127.0.0.1:47981 [200]: POST /js/location.js
+[Wed May 20 19:49:01 2020] 127.0.0.1:47980 Closing
+[Wed May 20 19:49:01 2020] 127.0.0.1:47981 Closing
+[Wed May 20 19:49:01 2020] 127.0.0.1:47982 Accepted
+[Wed May 20 19:49:01 2020] 127.0.0.1:47982 [200]: POST /js/warpspeed.min.js
+[Wed May 20 19:49:01 2020] 127.0.0.1:47982 Closing
+[Wed May 20 19:49:02 2020] 127.0.0.1:47983 Accepted
+[Wed May 20 19:49:02 2020] 127.0.0.1:47983 [200]: POST /php/info.php
+[Wed May 20 19:49:02 2020] 127.0.0.1:47983 Closing
