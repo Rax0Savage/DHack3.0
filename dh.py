@@ -22,6 +22,22 @@ import socket
 os.system('clear')
 print(Fore.GREEN +
 """
+░░░░░░░░░░░░░░▄▄▄▄░░░░▄▄▄░░░░░░░░░
+░░░░░░░░▄▄▄▄▄█████████████░░░░░░░░
+░░░░░░▄████████████████████░░░░░░░
+░░░░░▄█████████████████████░░░░░░░
+░▄██████████████████░░█████▄░▄░░░░
+░█████▀██████░░█████▄░██████░▀█▄░░
+░█████░░██████░██████░░█████▄░██▄░
+░██████░▀█████░░█████▄░██████░████
+░▀█████░░█████▄░██████░███▀▀░▄████
+░░█████▄░██████░░████▀░░░▄▄███████
+░░██████░░█████▄░█▀░▄▄███████████░
+░░░█████░░█████▀░░░███████████▀▀░░
+░░░░▀▀▀░░░░░▀▀░░░░░▀█████▀▀░░░░░░░
+""")
+print(Fore.GREEN +
+"""
 ░▐█▀█▄░▐█░▐█─░▄█▀▄─░▐█▀█▒▐█▒▐▀░▐█▀▀▒▐█▀▀▄
 ░▐█▌▐█░▐████░▐█▄▄▐█░▐█──▒▐██▌░░▐█▀▀▒▐█▒▐█
 ░▐█▄█▀░▐█░▐█░▐█─░▐█░▐█▄█▒▐█▒▐▄░▐█▄▄▒▐█▀▄▄
@@ -30,15 +46,18 @@ print("Автор: Rax0")
 print("VK: @rax0savage")
 print("----FISHING-----")
 print("[1]kingfish3 - Король Фишинга очень много вариантов для Фишинга(Фишинг ВК и прочее)")
+print("[2]Recreator-Phishing - много вариантов фишинга")
 print("-----DEANON-----")
-print("[2]sherlock - Можно много всего (Например пробить номер телефона)")
+print("[3]sherlock - Можно много всего (Например пробить номер телефона)")
 print("-----VK-----")
-print("[3]VkRaidBot - Убивает бееседы в ВК спамом")
-print("[4]VKTOOL - Утилита спамит посты и комментарии")
+print("[4]VkToPass - Брутофорс ВК")
+print("[5]VkRaidBot - Убивает бееседы в ВК спамом")
+print("[6]VKTOOL - Утилита спамит посты и комментарии")
 print("-----SMS SPAM-----")
-print("[5]smsham - Утилита для спама смс на номер телефона")
+print("[7]smsham - Утилита для спама смс на номер телефона")
 print("Others")
-print("[6]Bot Bilder - Утилита поможет сделать ботов для ВК")
+print("[8]Bot Bilder - Утилита поможет сделать ботов для ВК")
+
 print("Авторы утилит: Sudoreboot2020, Shotfly-tlab, Rax0")
 print("    ")
 print("Введите Номер: ")
@@ -50,30 +69,43 @@ while True:
         os.chdir('DH')
         os.system('python3 fsh.py')
     elif num == (2):
+        print (Fore.GREEN + 'Запуск Recreator-Phishing...')
+        os.system('clear')
+        os.chdir('DH')
+        os.chdir('Recreator-Phishing')
+        os.system('python3 ServerInstall.py')
+        print("Запуск...")
+        os.system('python3 recreator-phishing.py')
+    elif num == (3):
         print (Fore.GREEN + 'Запуск Sherlock')
         os.system('clear')
         os.chdir('DH')
         os.system('python3 sherl.py')
-    elif num == (3):
-        print (Fore.GREEN + 'Запуск VkRaidBot')
+    elif num == (4):
+        print (Fore.GREEN + 'Запуск VkToPass')
         os.system('clear')
         os.chdir('DH')
-        print("После запуска вам должно написать Bot Started после этого зайди в это сообщество в ВК club195563900 и нажмите Добавить в беседу и бот начнёт спамить в выбраную беседу")
         print("Загрузка...")
         time.sleep(4)
-        os.system('python3 vkraid.py')
-    elif num == (4):
-        print (Fore.GREEN + 'Запуск VKTOOL...')
+        os.system('python3 vtp_db.py')
+    elif num == (5):
+        print (Fore.GREEN + 'Запуск VkRaidBot..')
         os.system('clear') 
         os.chdir('DH')
+        os.system('python3 vkraid.py')
+    elif num == (6):
+        print (Fore.GREEN + 'Запуск VKTOOL...')
+        os.system('clear')
+        os.chdir('DH')
         os.system('python3 vktool.py')
-    elif num == (5):
-        print (Fore.GREEN + 'Запуск vktool ...')
+    elif num == (7):
+        print (Fore.GREEN + 'Запуск SmsHam...')
         os.system('clear')
         os.chdir('DH')
         os.system('python3 smsham.py')
-    elif num == (6):
+    elif num == (8):
         print (Fore.GREEN + 'Запуск BotBilder...')
         os.system('clear')
         os.chdir('DH')
-        os.system('python3 botvk.py')
+        os.system('python3 botbild.py')
+     
