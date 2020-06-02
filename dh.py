@@ -104,6 +104,7 @@ while True:
         print (Fore.GREEN + 'Запуск VKTOOL...')
         os.system('clear')
         os.chdir('DH')
+        os.chdir('Doser')
         os.system('python3 doser.py')
     elif num == (9):
         print (Fore.GREEN + 'Запуск BotBilder...')
