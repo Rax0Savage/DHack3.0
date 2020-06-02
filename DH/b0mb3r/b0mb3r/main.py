@@ -1,12 +1,3 @@
-import asyncio
-from datetime import datetime
-
-from loguru import logger
-
-from b0mb3r.app.status import status
-from b0mb3r.service import services
-from b0mb3r.utils import await_with_callback
-
 
 @logger.catch
 async def perform_attack(attack_id: str, number_of_cycles: int, country_code: int, phone: str):
