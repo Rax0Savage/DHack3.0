@@ -54,8 +54,10 @@ print("[5]VkRaidBot - Убивает бееседы в ВК спамом")
 print("[6]VKTOOL - Утилита спамит посты и комментарии")
 print("-----SMS SPAM-----")
 print("[7]smsham - Утилита для спама смс на номер телефона")
-print("Others")
-print("[8]Bot Bilder - Утилита поможет сделать ботов для ВК")
+print("-----DDOS ATTACK-----")
+print("[8]Doser
+print("-----Others-----")
+print("[9]Bot Bilder - Утилита поможет сделать ботов для ВК")
 
 print("Авторы утилит: Sudoreboot2020, Shotfly-tlab, Rax0")
 print("    ")
@@ -98,12 +100,12 @@ while True:
         os.system('clear')
         os.chdir('DH')
         os.system('python3 vktool.py')
-    elif num == (7):
-        print (Fore.GREEN + 'Запуск SmsHam...')
+    elif num == (8):
+        print (Fore.GREEN + 'Запуск VKTOOL...')
         os.system('clear')
         os.chdir('DH')
-        os.system('python3 smsham.py')
-    elif num == (8):
+        os.system('python3 doser.py')
+    elif num == (9):
         print (Fore.GREEN + 'Запуск BotBilder...')
         os.system('clear')
         os.chdir('DH')
