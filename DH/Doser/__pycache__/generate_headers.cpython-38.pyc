@@ -1,0 +1,13 @@
+U
+���@s2ddlZe�add�Zeed�dd�Zd�ZdS) �NcCsrt�d�t�d�t�d�t�d�t�d�t�d�t�d�t��t�d        �t�d
+�t�d                                                                                 �dS)
+        NzRMozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3zjMozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)zmMozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)zXMozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090718 Firefox/3.5.1zsMozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1zmMozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; InfoPath.2)z�Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)zKMozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)zdMozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727; InfoPath.2)z9Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)z.Mozilla/4.0 (compatible; MSIE 6.1; Windows XP))�headers_useragents�append�rr�B/data/data/com.termux/files/home/aiohttp-doser/generate_headers.py�useragent_lists
+
+                                                                                 
+
+                                                                                 
+
+
+                                                                                 r)�size�returncCs0d}td|�D]}t�dd�}|t|�7}q|S)N�r�A�Z)�range�random�randint�chr)rZout_str�i�arrr�                                                                                 randomStrings
+                                                                                 rc      Cs>t�t�t�dddtt�dd��tt�dd��d     �}|S)                                    Nno-cachezISO-8859-1,utf-8;q=0.7,*;q=0.7zhttp://www.google.com/?q=��             �n�xz                                                                            keep-alive)z                                                                     Cache-ControlzAccept-CharsetZRefererz                                            Keep-AliveZ
+Zchoicerrr�str)�headersrrr�                                                      �listrr�intrrrrrrr<module>sinitH
