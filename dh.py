@@ -44,7 +44,7 @@ print(Fore.GREEN +
 print("                                        Coded by: Rax0")
 print("                                        VK: @rax0savage")
 print("----FISHING-----")
-print("[1]kingfish3 - Король Фишинга очень много вариантов для Фишинга(Фишинг ВК и прочее)")
+print("[1]kingfish2 - Фишинг VK и Instagram")
 print("[2]Recreator-Phishing - много вариантов фишинга")
 print("-----DEANON-----")
 print("[3]sherlock - Можно много всего (Например пробить номер телефона)")
@@ -65,9 +65,9 @@ print("Введите Номер: ")
 while True:
     num =int(input("\033[35m\033[5m[*]"))
     if num == (1) :
-        print("Запуск kingfish3...")
+        print("Запуск kingfish2...")
         os.system('clear')
-        os.chdir('DH')
+        os.chdir('kingfish2')
         os.system('python3 fsh.py')
     elif num == (2):
         print (Fore.GREEN + 'Запуск Recreator-Phishing...')
