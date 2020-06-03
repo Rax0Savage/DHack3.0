@@ -103,7 +103,6 @@ while True:
     elif num == (7):
         print (Fore.GREEN + 'Запуск SmsHam...')
         os.system('clear')
-        os.chdir('DH')
         os.chdir('smsham')
         os.system('python3 smsham.py')
     elif num == (8):
