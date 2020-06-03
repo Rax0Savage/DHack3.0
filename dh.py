@@ -100,6 +100,12 @@ while True:
         os.system('clear')
         os.chdir('DH')
         os.system('python3 vktool.py')
+    elif num == (7):
+        print (Fore.GREEN + 'Запуск SmsHam...')
+        os.system('clear')
+        os.chdir('DH')
+        os.chdir('smsham')
+        os.system('python3 smsham.py')
     elif num == (8):
         print (Fore.GREEN + 'Запуск VKTOOL...')
         os.system('clear')
