@@ -5,6 +5,7 @@ pkg install python2
 pip install requests
 pip install bs4
 pip install colorama
+pip install numpy
 python3 -m pip install vk
 python3 -m pip install vk_api
 python3 -m pip install colorama
