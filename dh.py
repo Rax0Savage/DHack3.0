@@ -44,8 +44,8 @@ print(Fore.GREEN +
 ░▐█▀█▄░▐█░▐█─░▄█▀▄─░▐█▀█▒▐█▒▐▀░▐█▀▀▒▐█▀▀▄
 ░▐█▌▐█░▐████░▐█▄▄▐█░▐█──▒▐██▌░░▐█▀▀▒▐█▒▐█
 ░▐█▄█▀░▐█░▐█░▐█─░▐█░▐█▄█▒▐█▒▐▄░▐█▄▄▒▐█▀▄▄ """)
-print("                         Coded by: Rax0")
-print("                         VK: @rax0savage")
+print("                           Coded by: Rax0")
+print("                          VK: @rax0savage")
 print("----FISHING-----")
 print("[1]kingfish2 - Фишинг VK и Instagram")
 print("[2]Recreator-Phishing - много вариантов фишинга")
