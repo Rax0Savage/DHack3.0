@@ -1,3 +1,4 @@
+АВТОРЫ УТИЛИТ: shotfly_tlab, Rax0, sudoreboot2020
 DHack3.0
 Утилита сборник 
 Установка
